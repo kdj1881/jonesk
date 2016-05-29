@@ -8,7 +8,7 @@
 // ------------------------------------------------
 
 // Connection string to use for connecting to a PDO database.
-define('UL_PDO_CON_STRING', 'mysql:host=localhost;dbname=playground');
+define('UL_PDO_CON_STRING', 'mysql:host=mysql.hostinger.in;dbname=u192779429_login');
 // Example for SQLite: 
 //define('UL_PDO_CON_STRING', 'sqlite:/path/to/db.sqlite');
 
@@ -37,34 +37,34 @@ define('UL_PDO_CON_INIT_QUERY', "");
 // Used to log users in.
 // Database user with SELECT access to the
 // logins table.
-define('UL_PDO_AUTH_USER', 'root');
-define('UL_PDO_AUTH_PWD', 'mysql');
+define('UL_PDO_AUTH_USER', 'u192779429_kdj');
+define('UL_PDO_AUTH_PWD', 'JVuj0tDwi2M60OJuNv');
 
 // LOGIN UPDATE
 // Used to add new and modify login data.
 // Database user with SELECT, UPDATE and INSERT access to the
 // logins table.
-define('UL_PDO_UPDATE_USER', 'root');
-define('UL_PDO_UPDATE_PWD', 'mysql');
+define('UL_PDO_UPDATE_USER', 'u192779429_kdj');
+define('UL_PDO_UPDATE_PWD', 'JVuj0tDwi2M60OJuNv');
 
 // LOGIN DELETE
 // Used to remove logins.
 // Database user with SELECT and DELETE access to the
 // logins table
-define('UL_PDO_DELETE_USER', 'root');
-define('UL_PDO_DELETE_PWD', 'mysql');
+define('UL_PDO_DELETE_USER', 'u192779429_kdj');
+define('UL_PDO_DELETE_PWD', 'JVuj0tDwi2M60OJuNv');
 
 // SESSION
 // Database user with SELECT, UPDATE and DELETE permissions to the
 // sessions and nonces tables.
-define('UL_PDO_SESSIONS_USER', 'root');
-define('UL_PDO_SESSIONS_PWD', 'mysql');
+define('UL_PDO_SESSIONS_USER', 'u192779429_kdj');
+define('UL_PDO_SESSIONS_PWD', 'JVuj0tDwi2M60OJuNv');
 
 // LOG
 // Used to log events and analyze previous activity.
 // Database user with SELECT, INSERT and DELETE access to the
 // logins-log table.
-define('UL_PDO_LOG_USER', 'root');
-define('UL_PDO_LOG_PWD', 'mysql');
+define('UL_PDO_LOG_USER', 'u192779429_kdj');
+define('UL_PDO_LOG_PWD', 'JVuj0tDwi2M60OJuNv');
 
 ?>
